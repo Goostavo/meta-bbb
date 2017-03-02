@@ -740,7 +740,7 @@ index 0000000..7c2e851
 +#include "am33xx.dtsi"
 +#include "am335x-bone-common.dtsi"
 +#include "bbb-spi1-spidev.dtsi"
-+#include "bbb-i2c1.dtsi"
++#include "bbb-uart1.dtsi"
 +#include "bbb-i2c2.dtsi"
 +#include "bbb-uart4.dtsi"
 +#include "bbb-uart5.dtsi"
