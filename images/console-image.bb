@@ -56,6 +56,8 @@ DEV_SDK_INSTALL = " \
     pkgconfig \
     python-modules \
     python3-modules \
+    python-pip \
+    python-misc \
  "
 
 DEV_EXTRAS = " \
@@ -63,8 +65,6 @@ DEV_EXTRAS = " \
     ntp-tickadj \
     serialecho \
     spiloop \
-    zeromq \
-    zeromq-dev \
  "
 
 EXTRA_TOOLS_INSTALL = " \
@@ -93,7 +93,12 @@ EXTRA_TOOLS_INSTALL = " \
     util-linux-blkid \
     wget \
     zip \
+    vim \
  "
+
+MONO_BINARIES = "\ 
+   mono \
+"
 
 IMAGE_INSTALL += " \
     ${CORE_OS} \
@@ -102,6 +107,7 @@ IMAGE_INSTALL += " \
     ${EXTRA_TOOLS_INSTALL} \
     ${KERNEL_EXTRA_INSTALL} \
     ${WIFI_SUPPORT} \
+    ${MONO_BINARIES} \
  "
 
 set_local_timezone() {
