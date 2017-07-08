@@ -100,6 +100,10 @@ MONO_BINARIES = "\
    mono \
 "
 
+PREFERRED_VERSION_mono = "5.0.1.1"
+PREFERRED_VERSION_mono-native = "5.0.1.1"
+
+
 IMAGE_INSTALL += " \
     ${CORE_OS} \
     ${DEV_SDK_INSTALL} \
