@@ -11,6 +11,5 @@ BBLAYERS ?= " \
   ${HOME}/poky-morty/meta-openembedded/meta-oe \
   ${HOME}/poky-morty/meta-openembedded/meta-networking \
   ${HOME}/poky-morty/meta-openembedded/meta-python \
-  ${HOME}/poky-morty/meta-qt5 \
   ${HOME}/bbb/meta-bbb \
   "

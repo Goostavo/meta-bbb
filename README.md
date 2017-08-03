@@ -1,19 +1,16 @@
 This layer depends on:
 
-    URI: git://git.yoctoproject.org/poky.git
+    URI: https://git.yoctoproject.org/git/poky poky-morty
     branch: morty
     revision: HEAD
-    commit: 6a1f33c
 
-    URI: git://git.openembedded.org/meta-openembedded
+    URI: https://github.com/openembedded/meta-openembedded.git
     branch: morty
     revision: HEAD
-    commit: 1efa5d6
 
-    URI: https://github.com/meta-qt5/meta-qt5.git
+    URI: https://git.yoctoproject.org/git/meta-mono
     branch: morty
     revision: HEAD
-    commit: 4020adf
 
     meta-bbb layer maintainer: Scott Ellis <scott@jumpnowtek.com>
 
@@ -42,9 +39,9 @@ There is a dtb without HDMI/display support, freeing up some GPIO pins and UART5
 
 And there are dtbs for a couple of touchscreen capes
 
-* bbb-4dcape43t.dtb - 4D Systems 4.3 inch touchscreen, 480x272 
-* bbb-4dcape70t.dtb - 4D Systems 7 inch touchscreen, 800x480 
-* bbb-nh5cape.dtb - NewHaven Capacitive, 5-inch, 800x480 touchscreen 
+* bbb-4dcape43t.dtb - 4D Systems 4.3 inch touchscreen, 480x272
+* bbb-4dcape70t.dtb - 4D Systems 7 inch touchscreen, 800x480
+* bbb-nh5cape.dtb - NewHaven Capacitive, 5-inch, 800x480 touchscreen
 
 All the dtbs include the following
 
@@ -90,4 +87,3 @@ Or add it to `/etc/modules` to have it load every boot
 [qt]: http://www.qt.io/
 [tspress]: https://github.com/scottellis/tspress
 [spiloop]: https://github.com/scottellis/spiloop
-
